@@ -1,0 +1,28 @@
+.sidebar{
+    cursor: pointer;
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    min-width: 200px;
+    z-index: 100px;
+    flex: .2;
+    background-color: #fff;
+}
+.sidebar-items{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 1px 0;
+}
+.ptag {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 8px;
+}
+.sidebar-text{
+    font-size: 10px;
+    margin-top: 0.2rem;
+    margin-left: 10px;
+    font-weight: 300;
+    text-align: center;
+}

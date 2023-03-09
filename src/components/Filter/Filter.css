@@ -1,0 +1,20 @@
+.filter{
+    flex: 0.8px;
+    display: flex;
+    align-items: center;
+    max-height: 50px;
+    margin: 0 10px;
+}
+.filter-item{
+    cursor:pointer;
+    font-size: 10px;
+    padding: 5px 12px;
+    border-radius: 15px;
+    border: 1px solid #ece7e7;
+    margin-right: 15px;
+}
+.filter-item:active{
+    background-color: black;
+    color: #ece7e7;
+    border: none;
+}
