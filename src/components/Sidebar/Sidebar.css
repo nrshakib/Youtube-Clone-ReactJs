@@ -3,7 +3,7 @@
     display: flex;
     flex-wrap: wrap;
     height: auto;
-    min-width: 200px;
+    min-width: 110px;
     z-index: 100px;
     flex: .2;
     background-color: #fff;

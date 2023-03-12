@@ -6,10 +6,15 @@ const SearchBar = () => {
   return (
     <div className="searchBar">
       <div className="searchBox">
-        <input className="inputBox" type="text" placeholder="Search" />
-        <div className="searchIcon">
-          <SearchRoundedIcon fontSize="small"/>
-        </div>
+        <input
+          className="inputBox"
+          type="text"
+          placeholder="Search"
+          style={{ overflow: "hidden" }}
+        />
+        <button type="submit" className="searchIcon">
+          <SearchRoundedIcon fontSize="small" />
+        </button>
       </div>
       <div className="voiceSearch">
         <KeyboardVoiceRoundedIcon fontSize="small" />

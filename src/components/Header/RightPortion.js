@@ -6,9 +6,15 @@ import Profile from "./Profile";
 const RightPortion = () => {
   return (
     <div className="rightIcons">
-      <VideoCallOutlinedIcon fontSize="small" />
-      <NotificationAddOutlinedIcon fontSize="small" />
-      <Profile />
+      <div className="rightIcon">
+        <VideoCallOutlinedIcon fontSize="small" />
+      </div>
+      <div className="rightIcon">
+        <NotificationAddOutlinedIcon fontSize="small" />
+      </div>
+      <div className="rightIcon">
+        <Profile />
+      </div>
     </div>
   );
 };
